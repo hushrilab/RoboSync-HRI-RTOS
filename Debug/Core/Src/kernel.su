@@ -1,0 +1,10 @@
+../Core/Src/kernel.c:15:11:getMSPInitialLocation	0	static
+../Core/Src/kernel.c:27:11:getNewThreadStack	0	static
+../Core/Src/kernel.c:43:6:osKernelInit	0	static
+../Core/Src/kernel.c:55:6:osKernelStart	0	static,ignoring_inline_asm
+../Core/Src/kernel.c:62:11:osInitializeThreadStack	16	static
+../Core/Src/kernel.c:93:6:osCreateThread	8	static
+../Core/Src/kernel.c:110:6:osCreateThreadWithDeadline	16	static
+../Core/Src/kernel.c:124:6:osYield	0	static,ignoring_inline_asm
+../Core/Src/kernel.c:129:6:osSched	4	static,ignoring_inline_asm
+../Core/Src/kernel.c:143:6:SVC_Handler_Main	8	static,ignoring_inline_asm
